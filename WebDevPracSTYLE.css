@@ -1,10 +1,10 @@
  a:visited {
-    color: lightblue;
+    color: darkblue;
  }
   
  a:hover {
     font-weight: bold;
-    color: darkblue;
+    color: lightblue;
  }
 
 body {
