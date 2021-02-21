@@ -1,5 +1,5 @@
  a:visited {
-    color: green;
+    color: lightblue;
  }
   
  a:hover {
@@ -21,7 +21,7 @@ body {
 
  }
  
- #kotak {
+ .kotak {
          width: 15em;
          border: 1px solid #333;
          box-shadow: 8px 8px 5px #444;
@@ -67,3 +67,16 @@ body {
  #profile-job {
     text-align: center;
  }
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+ }
+ .jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}
