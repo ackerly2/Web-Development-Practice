@@ -45,3 +45,18 @@ body {
  #profile-job {
     text-align: center;
  }
+ nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+ nav {
+   background-color: #00a2c6;
+   padding: 5px;
+}
+ nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
