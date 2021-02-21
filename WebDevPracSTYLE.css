@@ -1,8 +1,8 @@
- a:visited {
+ .mem:visited {
     color: darkblue;
  }
   
- a:hover {
+ .mem:hover {
     font-weight: bold;
     color: lightblue;
  }
@@ -99,7 +99,20 @@ body {
    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
    cursor: pointer;
 }
- 
+.button:hover {
+   font-weight: bold;
+}
 .double {
    flex-basis: 50%;
+}
+.display {
+   color: white;
+   width: 100%;
+   padding: 10px 20px;
+   background-color: #333333;
+   border: 1px solid black;
+   font-size: 2em;
+}
+.operator,.negative,.equals {
+   background: orange;
 }
