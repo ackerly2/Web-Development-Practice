@@ -1,8 +1,8 @@
- .mem:visited {
+ a:visited {
     color: darkblue;
  }
   
- .mem:hover {
+ a:hover {
     font-weight: bold;
     color: lightblue;
  }
