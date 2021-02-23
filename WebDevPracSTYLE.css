@@ -1,68 +1,37 @@
-<<<<<<< HEAD
- a:visited {
-    color: darkblue;
- }
-  
- a:hover {
-    font-weight: bold;
-    color: lightblue;
- }
-
-=======
-a:visited {
-   color: darkblue;
-}
- 
-a:hover {
-   font-weight: bold;
-   color: lightblue;
-}
-aside {
-   float: right;
-   width: 25%;
-   padding-left: 20px;
-}
-#content {
-   float: left;
-   width: 75%;
-}
-* {
-   box-sizing: border-box;
-}
->>>>>>> Header
+ a:visited {color: darkblue;}
+ a:hover {font-weight: bold;
+    color: lightblue;}
+ nav li {display: inline;
+   list-style-type: none;
+   margin-right: 20px;}
+ nav {background-color: #00a2c6;
+   padding: 5px;}
+ nav a {font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;}
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-color: antiquewhite;
-    font-family: Arial, Helvetica, sans-serif;
- }
-  .kotak {
-         width: 15em;
-         border: 1px solid #333;
-         box-shadow: 8px 8px 5px #444;
-         padding: 8px 12px;
-         background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-     }
-  
- #profilecont{
-    max-width: 300px;
-    margin: 80px auto;
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      background-color: antiquewhite;
+      font-family: Arial, Helvetica, sans-serif;
+   }
+#content {float: left;
+   width: 75%;}
+#profilecont{ float:right;
+   width: 23%;
+   margin: 20px 10px auto 10px;
     background-color: white;
     border: 1px solid gray;
-    border-radius: 6px;
- }
-  
- #profilepho{
+    border-radius: 6px;} 
+#profilepho{
     width: 100%;
-    height: auto;
- }
-  
- #profilejob, #profilename, #profiledesc {
-    text-align: center;
- }
- #footer {
+    height: auto;}
+#profilejob, #profilename, #profiledesc {
+    text-align: center;}
+#footer {
     width: 100%;
     height: 50px;
     position: absolute;
@@ -70,124 +39,85 @@ body {
     line-height: 50px;
     background-color: burlywood;
     text-align: center;
-    color: white;
- }
-<<<<<<< HEAD
- 
- #header {
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    background-color: burlywood;
-    text-align: center;
-    color: white;
- }
- #profile-job {
-    text-align: center;
- }
- .card {
+    color: white;}
+.card {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    border-radius: 5px;
    padding: 20px;
    margin-top: 20px;
- }
-=======
-
->>>>>>> Header
- .jumbotron {
+   width: 75%}
+.jumbotron {
    font-size: 20px;
    padding: 60px;
    background-color: #00c8eb;
    text-align: center;
-   color: white;
-}
-<<<<<<< HEAD
-/*Calculator*/
+   color: white;}
 * {
-   box-sizing: border-box;
-}
+   box-sizing: border-box;}
+
+/*Calculator*/
 .flex-container-column {
-   display: flex;
-   flex-direction: column;
-   max-width: 800px;
-   margin: 0 auto;
-   text-align: right;
-}
- 
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+    } 
 .flex-container-row {
-   display: flex;
-}
+    display: flex;
+    }
  
 .button {
-   flex-basis: 25%;
-   font-size: 1.5em;
-   text-align: center;
-   padding: 40px;
-   border: 1px solid black;
-   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
-   cursor: pointer;
-}
+    flex-basis: 25%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+    }
 .button:hover {
-   font-weight: bold;
-}
+    font-weight: bold;
+    }
 .double {
-   flex-basis: 50%;
-}
+    flex-basis: 50%;
+    }
 .display {
-   color: white;
-   width: 100%;
-   padding: 10px 20px;
-   background-color: #333333;
-   border: 1px solid black;
-   font-size: 2em;
-}
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333333;
+    border: 1px solid black;
+    font-size: 2em;
+    }
 .operator,.negative,.equals {
-   background: orange;
-}
+    background: orange;
+    }
 .history {
-   width: 80%;
-   margin: 30px auto 0 auto;
-   overflow: scroll;
-}
+    overflow: scroll;
+    }
 table {
-   border-collapse: collapse;
-   border-spacing: 0;
-   width: 100%;
-   border: 1px solid #ddd;
-}
-th,
-td {
-   text-align: center;
-   padding: 16px;
-}
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    }
+th, td {
+    text-align: center;
+    padding: 16px;
+    }
 th {
-   background-color: orange;
-   color: white;
-}
+    background-color: orange;
+    color: white;
+    }
 tr:nth-child(even) {
-   background-color: #d2d2d2;
-}
+    background-color: #d2d2d2;
+    }
 @media screen and (max-width: 513px) {
- .button {
+    .button {
        padding: 10px;
- }
- .history {
+       }
+    .history {
        width: 100%;
- }
-=======
- nav li {
-   display: inline;
-   list-style-type: none;
-   margin-right: 20px;
-}
- nav {
-   background-color: #00a2c6;
-   padding: 5px;
-}
- nav a {
-   font-size: 18px;
-   font-weight: 400;
-   text-decoration: none;
-   color: white;
->>>>>>> Header
-}
+       }
+    }   
