@@ -3,7 +3,9 @@ const CACHE_KEY = "calculation_history";
 function checkForStorage() {
    return typeof(Storage) !== "undefined";
 }
- 
+
+function deleteItem() {
+    localStorage.removeItem("calculation_history");}
 function putHistory(data) {
    if (checkForStorage()) {
        let historyData = null;

@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-<<<<<<< HEAD
-     <title>Kontrakan Gayeng Rukun Website</title> 
-=======
->>>>>>> Footer
+     <title>Kontrakan Javas Alfreda</title> 
      <link rel="stylesheet" href="WebDevPracSTYLE.css">
   </head>
     
   <body>
-<<<<<<< HEAD
-   <div id="header" class="jumbotron">Kontrakan Gayeng Rukun</div>
-   <nav>
+   <header id="header" class="jumbotron"><h1>Kontrakan Javas Alfreda</h1>
+      <p>Kontrakannya anak Matematika UNS</p>
+      <img id="logo" src="Images/Lol.png" alt="logo">
+   </header>
+   <nav class="fixed">
        <ul>
            <li><a href="#intro">Introduction</a></li>
            <li><a href="#lokasi">Lokasi</a></li>
-           <li><a href="#member">member</a></li>
-           <li><a href="#calc">Calculator</a></li>
+           <li><a href="#member">Member</a></li>
+           <li><a href="Calculatr.html">Calculator</a></li>
       </ul>
    </nav>
-   <aside><div id="profilecont">
-      <img id="profilepho" src="Images/Lol.jpg" alt="profile image" />
-      <h2 id="profilename">Hmmm</h2>
-      <p id="profilejob">Ahmad Faiz Hafizhuddin</p>
-   </div>
-   </aside>
-   <div id="content">
-          <div id="intro"><h1>Introduction</h1>
-           <p>aaaa</p>
-          </div>
-          <div id="lokasi"><h1>Lokasi</h1>
-           <p>aaaaaaa</p>
-          </div>      
-          <div id="member"><h1>member</h1>
+   <main>
+    <div id="content">
+          <div id="intro" class="card"><h1>Introduction</h1>
+           <article><p>Kontrakan dengan lingkungan yang ramah<br>
+            Untuk mahasiswa baru Universitas Sebelas Maret (UNS), terutama prodi Matematika,
+            sekarang ada kost yang keren banget loh.
+            Ruang tengah yang luas, parkiran motor (max 4motor) dan tempat untuk menjemur.<br>
+            Fasilitas :<br>
+                <ul>
+                    <li><span>4 Kamar</span></li>
+                    <li><span>2 Kamar mandi dalam</span></li>
+                    <li><span>Shower</span></li>
+                    <li><span>Dapur dengan wastafel</span></li>
+                    <li><span>Area menjemur dan mencuci</span></li>
+                    <li><span>Area kebun kecil</span></li>
+                    <li><span>Lemari dan kasur</span></li>
+                </ul>
+                     </p>
+            </div>
+          <div id="lokasi" class="card"><h1>Lokasi</h1>
+           <img id="map" src="Images/maps.png">
+           <p>Unnamed Road, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126<br>
+            FV39+32 Jebres, Kota Surakarta, Jawa Tengah
+           </p>
+           <a href=https://goo.gl/maps/FtawpMxfrZmb8rDw5><p>Kost Javas Alfreda</p></a>
+          </div>   
+          <div id="member" class="card"><h1>Member</h1>
             <p>Kontrakan ini ditempati oleh para mahasiswa prodi Matematika 
                FMIPA UNS angkatan 2017. Beberapa orang diantaranya adalah :
                <ul>
@@ -41,62 +53,28 @@
                    <li>Erikha Feriyanto</a></li>
                    <li>Fauzan Rafif</a></li>
                    <li>Irfan Setiawan</a></li>
-                   <li>Javas Alfreda B.Y.P</a></li>
+                   <li>Javas Alfreda B.Y.P<strong>(Sementara)</strong></a></li>
                </ul>
               </p>
+              <div class="lismem">
+                <div class="member"><img src="https://i.pinimg.com/564x/61/2c/a0/612ca015982c308258cc8e9a91df038b.jpg" alt="pais" class="pp"><span>Ahmad Faiz Hafizhddin</span></div>
+                <div class="member"><img src="https://data.whicdn.com/images/346143881/original.jpg" alt="agus" class="pp"><span>Agus Wahyudi</span></div>
+                <div class="member"><img src="data:image/jpeg;base64,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" alt="erik" class="pp"><span>Erikha Feriyanto</span></div>
+                <div class="member"><img src="https://66.media.tumblr.com/7ddc2e32cc069d77ad4ad22242aab7bf/tumblr_pbnxzebKzN1x9q2v4o1_250.jpg" alt="yais" class="pp"><span>Fauzan Rafif</span></div>
+                <div class="member"><img src="https://cdn.myanimelist.net/r/360x360/images/characters/9/307239.jpg?s=ecdd270e6a1c52dc4446e7ffe076f419" alt="irpan" class="pp"><span>Irfan Setiawan</span></div>
+                <div class="member"><img src="https://cdn.myanimelist.net/r/360x360/images/characters/2/303967.jpg?s=58096fa65f1053c48db2a333c6e1e71c" alt="japas" class="pp"><span>Javas Alfreda B.Y.P</span></div>
+            </div>
           </div>
-   </div>     
-<!--Calculator-->
-<div id="calc" class="card"><h2>Calculator</h2> 
- <div class="flex-container-column">
-    <div class="display">
-        <h1 id="displayNumber">0</h1>
     </div>
-    <div class="flex-container-row">
-        <div class="button">7</div>
-        <div class="button">8</div>
-        <div class="button">9</div>
-        <div class="button negative">+/-</div>
-    </div>
-    <div class="flex-container-row">
-        <div class="button">4</div>
-        <div class="button">5</div>
-        <div class="button">6</div>
-        <div class="button operator">-</div>
-    </div>
-    <div class="flex-container-row">
-        <div class="button">1</div>
-        <div class="button">2</div>
-        <div class="button">3</div>
-        <div class="button operator">+</div>
-    </div>
-    <div class="flex-container-row">
-        <div class="button clear">CE</div>
-        <div class="button">0</div>
-        <div class="button equals double">=</div>
-    </div>
- </div>
-</div>
-<div class="history card">
-    <h2>Riwayat Perhitungan</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Angka Pertama</th>
-                <th>Operator</th>
-                <th>Angka Kedua</th>
-                <th>Hasil</th>
-            </tr>
-        </thead>
-        <tbody id="historyList"></tbody>
-    </table>
-</div>
-<script src="histo.js"></script>
-<script src="calc.js"></script>
-=======
-     
-     <div id="footer">Sponsored by : Bapak Shidiq</div>
->>>>>>> Footer
-  </body>
- 
+    <aside class="cardleft">
+        <img id="profilepho" src="Images/Lol.jpg" alt="profile image">
+        <h2 class="tengah">Faiz</h2>
+        <p class="tengah">Colleger/Bangkit Cloud Path Student</p>
+        <p class="kiri" class="profp">Nama Lengkap : Ahmad Faiz Hafizhuddin<br>TTL : Tangerang, 18 Mei 1999
+        <br>E-mail : c3122773@bangkit.academy<br><br></p>
+        <p class="tengah"><em>&ldquo;There's No Coincidence&rdquo;</em></p>
+     </aside>
+</main>
+ <footer><p class="tengah">Sponsored by : Bapak Shidiq</p></footer>
+</body>
 </html>
